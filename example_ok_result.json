@@ -1,0 +1,82 @@
+{
+	"result": {
+		"documentNumber": "11.111.111",
+		"personalNumber": "00000000000",
+		"firstName": "Juan Perez",
+		"lastName": "Perez",
+		"fullName": "Juan Pedro Perez",
+		"sex": "M",
+		"age": 0,
+		"dob": "birth_date",
+		"dob_day": 1,
+		"dob_month": 1,
+		"dob_year": 1111,
+		"expiry": "expiration_date",
+		"expiry_day": 1,
+		"expiry_month": 1,
+		"expiry_year": 1111,
+		"daysToExpiry": 1,
+		"issued": "issued_date",
+		"issued_day": 1,
+		"issued_month": 1,
+		"issued_year": 1111,
+		"daysFromIssue": 1,
+		"documentType": "type",
+		"documentSide": "FRONT",
+		"issuerOrg_full": "country",
+		"issuerOrg_iso2": "country_iso2",
+		"issuerOrg_iso3": "country_iso3",
+		"nationality_full": "country",
+		"nationality_iso2": "country_iso2",
+		"nationality_iso3": "country_iso3",
+		"internalId": "internal_id"
+	},
+	"face": {
+		"isIdentical": true,
+		"confidence": "0.739"
+	},
+	"verification": {
+		"passed": true,
+		"result": {
+			"face": true
+		}
+	},
+	"authentication": {
+		"score": 1,
+		"breakdown": {
+			"data_visibility": {
+				"passed": true
+			},
+			"image_quality": {
+				"passed": true
+			},
+			"feature_referencing": {
+				"passed": true
+			},
+			"exif_check": {
+				"passed": true
+			},
+			"publicity_check": {
+				"passed": true
+			},
+			"text_analysis": {
+				"passed": true
+			},
+			"biometric_analysis": {
+				"passed": true
+			},
+			"security_feature_check": {
+				"passed": true
+			},
+			"recapture_check": {
+				"passed": true
+			}
+		}
+	},
+	"vaultid": "string_id",
+	"matchrate": 1,
+	"executionTime": 11.145591020584106,
+	"responseID": "string_id",
+	"quota": 5,
+	"credit": 97
+}

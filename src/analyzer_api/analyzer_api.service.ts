@@ -9,11 +9,9 @@ export class AnalyzerApiService {
     CoreAPI: any;
 
     constructor() {
-        this.CoreAPI = new IDAnalyzer.CoreAPI("5nBZSCWt9TYOFgiHPKRULb1ARGwBKXMS","US");
+        this.CoreAPI = new IDAnalyzer.CoreAPI("API_KEY","US");
 
         this.CoreAPI.enableAuthentication(true, "2");
-        //this.CoreAPI.checkExpiry(true);
-        //this.CoreAPI.enableAMLCheck(true);
     }
 
     public async analyzeID() {
